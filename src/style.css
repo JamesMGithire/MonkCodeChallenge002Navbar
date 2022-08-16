@@ -1,0 +1,38 @@
+#navbar{
+    position: sticky;
+	top: 0;
+	background-color: #0bd4db;
+	margin:auto;
+	width: auto;
+	z-index: 1;
+    color: #f7f7f7;
+    padding: 1rem;
+}
+#cName{
+    display:inline-block;
+    font-family:"Rounded Mplus 1b";
+    font-size: 1.35rem;
+    letter-spacing: 0.3rem;
+    margin: auto;
+    margin-left: 0.5rem;
+}
+
+/* Navblock*/
+#navblock{
+    display: inline-block;
+}
+.navItem{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #f7f7f7;
+    font-family:"Rounded Mplus 1m";
+    font-size: 1rem;
+}
+
+/* Monk Content Manipulation */
+#monkContent{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
