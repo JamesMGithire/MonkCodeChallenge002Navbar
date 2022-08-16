@@ -1,12 +1,18 @@
 #navbar{
     position: sticky;
 	top: 0;
-	background-color: #0bd4db;
+	background-color: #0ed1c1;
 	margin:auto;
 	width: auto;
 	z-index: 1;
     color: #f7f7f7;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Navblock*/
+#logo{
+    margin-left: 1rem;
 }
 #cName{
     display:inline-block;
@@ -15,19 +21,31 @@
     letter-spacing: 0.3rem;
     margin: auto;
     margin-left: 0.5rem;
+    position:absolute;
+    top:25%;
 }
-
-/* Navblock*/
 #navblock{
-    display: inline-block;
+    position:absolute;
+    display:table;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    left: 25%;
+    top: 25%;
+    /* transform: translate(-50%, -50%); */
 }
 .navItem{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-decoration: none;
     color: #f7f7f7;
     font-family:"Rounded Mplus 1m";
     font-size: 1rem;
+}
+#navhr{
+    /* color:rgba(255, 255, 255, 0.459); */
+    border: 0.1px solid rgba(255, 255, 255, 0.37);
+    width: 100%;
 }
 
 /* Monk Content Manipulation */
