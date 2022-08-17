@@ -20,6 +20,6 @@ login.addEventListener("click", (e) => {
 
 let sign = document.getElementById("sign-up");
 sign.addEventListener("click", (e) => {
-  hrBar.style.width = "17%";
+  hrBar.style.width = "17.5%";
   hrBar.style.left = "52.7%";
 });
