@@ -1,113 +1,110 @@
+html,
+body {
+  min-width: 1349px;
+  cursor: pointer;
+}
+* {
+  font-family: "Rounded Mplus 1m";
+}
 #navbar {
-    position: sticky;
-    top: 0;
-    background-color: #0ed1c1;
-    margin: auto;
-    width: auto;
-    z-index: 1;
-    color: #f7f7f7;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: #0ed1c1;
+  margin: auto;
+  width: auto;
+  z-index: 1;
+  color: #f7f7f7;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* Navblock*/
 #logo {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 #cName {
-    display: inline-block;
-    font-family: "Rounded Mplus 1b";
-    font-size: 1.35rem;
-    letter-spacing: 0.3rem;
-    margin: auto;
-    margin-left: 0.5rem;
-    position: absolute;
-    top: 25%;
+  display: inline-block;
+  font-family: "Rounded Mplus 1b";
+  font-size: 1.35rem;
+  letter-spacing: 0.3rem;
+  margin: auto;
+  margin-left: 0.5rem;
+  position: absolute;
+  top: 25%;
 }
 
 #navblock {
-    position: absolute;
-    display: table;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    left: 25%;
-    top: 25%;
-    margin-bottom: 0%;
+  position: absolute;
+  display: table;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  left: 25%;
+  top: 25%;
+  margin-bottom: 0%;
 }
 /* hover property in https://css-tricks.com/cool-hover-effects-using-background-properties/ hover-2*/
 .navItem {
-    text-align: center;
-    padding-bottom: 1.25rem;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-decoration: none;
-    color: #f7f7f7;
-    font-family: "Rounded Mplus 1m";
-    font-size: 1rem;
-    border: none;
-    background:
-        linear-gradient(#04dac8 0 0) no-repeat calc(200% - var(--p, 0%)) 100% / 200% var(--p, .08em);
-    transition: .3s var(--t, 0s), background-position .3s calc(.3s - var(--t, 0s));
+  text-align: center;
+  padding-bottom: 1.25rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
+  color: #f7f7f7;
+  font-size: 1rem;
+  border: none;
+  background-color: #0ed1c1;
+  transition: all 0.3s;
 }
 
 .navItem:hover {
-    position: unset;
-    --p: 100%;
-    --t: .3s;
-    color: #fff;
-    /* border-bottom-style: solid;
-    border-bottom-color: #f7f7f7;
-    border-bottom-width: 1.5px; */
+  position: unset;
+  background: linear-gradient(#04dac8 0 0);
+  color: #fff;
 }
-#dropdown{
-    position: absolute;
-    width: 100rem;
-    left: 50%;
-    visibility:hidden;
+#dropdown {
+  position: absolute;
+  width: 100rem;
+  left: 50%;
+  visibility: hidden;
 }
 
-.dropdownBs{
-    display: block;
-    text-align: center;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
-    padding-left: 5%;
-    padding-right: 5%;
-    size-adjust:unset;
-    text-decoration: none;
-    color: #f7f7f7;
-    font-family: "Rounded Mplus 1m";
-    font-size: 1rem;
-    border: none;
-    background-color: #0ed1c1;
+.dropdownBs {
+  display: block;
+  text-align: center;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  size-adjust: unset;
+  text-decoration: none;
+  color: #f7f7f7;
+  font-family: "Rounded Mplus 1m";
+  font-size: 1rem;
+  border: none;
+  background-color: #0ed1c1;
 }
-
 
 #navhr {
-    border: 0.01px solid rgba(255, 255, 255, 0.37);
-    width: 100%;
+  border: 0.01px solid rgba(255, 255, 255, 0.37);
+  width: 100%;
 }
-#nomadHr{
-    display: block;
-    position: absolute;
-    border:1.1px #f7f7f7 solid;
-    width:16%;
-    top:2.75rem;
-    margin-left: 15%;
-    left:0%; /*Add or remove 17.5%*/
-    z-index: 100;
-    /* left:32.5%; */
+#nomadHr {
+  display: block;
+  position: absolute;
+  border: 1.1px #f7f7f7 solid;
+  width: 16%;
+  top: 2.75rem;
+  margin-left: 15%;
+  left: 0%; /*Add or remove 17.5%*/
+  z-index: 100;
+  /* left:32.5%; */
 }
-#sign-up:hover #nomadHr{
-    transform: translateX(32.5%);
-}
-
 /* Monk Content Manipulation */
 #monkContent {
-    width: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    z-index: -1;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  z-index: -1;
 }
