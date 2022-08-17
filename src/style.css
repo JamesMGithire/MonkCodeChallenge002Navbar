@@ -6,6 +6,7 @@ body {
 * {
   font-family: "Rounded Mplus 1m";
 }
+/* in the body */
 #navbar {
   position: sticky;
   top: 0;
@@ -44,7 +45,7 @@ body {
   top: 25%;
   margin-bottom: 0%;
 }
-/* hover property in https://css-tricks.com/cool-hover-effects-using-background-properties/ hover-2*/
+
 .navItem {
   text-align: center;
   padding-bottom: 1.25rem;
@@ -87,21 +88,22 @@ body {
 }
 
 #navhr {
-  border: 0.01px solid rgba(255, 255, 255, 0.37);
+  border: none;
+  background-color: rgba(255, 255, 255, 0.37);
+  height: 0.01rem;
   width: 100%;
-  z-index: -1;
   position: relative;
 }
 #nomadHr {
   display: block;
   position: absolute;
-  border: 1.1px #f7f7f7 solid;
+  border: 0.1px #f7f7f7 solid;
+  background-color: #fff;
+  height: 0.05rem;
   width: 16%;
-  top: 2.75rem;
+  top: 2.8rem;
   margin-left: 15%;
-  left: 0%; /*Add or remove 17.5%*/
-  z-index: 1;
-  /* left:32.5%; */
+  left: 0%;
 }
 /* Monk Content Manipulation */
 #monkContent {
