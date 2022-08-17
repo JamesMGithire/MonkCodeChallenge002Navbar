@@ -55,7 +55,7 @@ body {
   font-size: 1rem;
   border: none;
   background-color: #0ed1c1;
-  transition: all 0.3s;
+  transition: all 1s;
 }
 
 .navItem:hover {
@@ -89,6 +89,8 @@ body {
 #navhr {
   border: 0.01px solid rgba(255, 255, 255, 0.37);
   width: 100%;
+  z-index: -1;
+  position: relative;
 }
 #nomadHr {
   display: block;
@@ -98,7 +100,7 @@ body {
   top: 2.75rem;
   margin-left: 15%;
   left: 0%; /*Add or remove 17.5%*/
-  z-index: 100;
+  z-index: 1;
   /* left:32.5%; */
 }
 /* Monk Content Manipulation */
